@@ -12,7 +12,7 @@ console.log(username);
 
 //*Chiedi all’utente il suo cognome,
 
-const usersurname = prompt('Mi serve adesoo anche il tuo cognome');
+const usersurname = prompt('Mi serve adesso anche il tuo cognome');
 console.log(usersurname);
 
 //*Chiedi all’utente il suo colore fav,
