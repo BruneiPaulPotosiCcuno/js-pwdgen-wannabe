@@ -7,17 +7,17 @@ Infine scrivi sulla pagina nomecognomecolorepreferito23
 
 //*Chiedi all’utente il suo nome,
 
-const username = prompt('Dammi il tuo nome');
+const username = prompt('Ciao per prima dammi il tuo nome');
 console.log(username);
 
 //*Chiedi all’utente il suo cognome,
 
-const usersurname = prompt('Dammi il tuo cognome');
+const usersurname = prompt('Mi serve adesoo anche il tuo cognome');
 console.log(usersurname);
 
 //*Chiedi all’utente il suo colore fav,
 
-const favcolor = prompt('Dammi il tuo colore favorito');
+const favcolor = prompt('Sceglie adesso un tuo colore favorito');
 console.log(favcolor);
 
 //*add number 23,
@@ -25,10 +25,10 @@ console.log(favcolor);
 const number = ('23')
 console.log(number);
 
-//! Risultato
+//! operation sum
 
 const userMessage = username + usersurname + favcolor + number; 
 
-//TODO Infine scrivi sulla pagina nomecognomecolorepreferito23
+//TODO Infine scrive sulla pagina nomecognomecolorepreferito23
 
 document.getElementById('your_info').innerHTML = userMessage;
